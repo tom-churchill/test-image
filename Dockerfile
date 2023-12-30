@@ -10,7 +10,7 @@ COPY cpu_load.py /app
 # Install required Python packages
 RUN pip install flask
 
-# Expose port 8080 for HTTP server
+# Expose port 80 for HTTP server
 EXPOSE 80
 
 # Run the Python script when the container starts
