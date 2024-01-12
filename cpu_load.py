@@ -9,7 +9,7 @@ def cpu_load():
     count = int(request.args.get('count', 10))
     for i in range(count):
         pass
-    return f'3 {time.time() - start_time}\n'
+    return f'4 {count} {time.time() - start_time}\n'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
